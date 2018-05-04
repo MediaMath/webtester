@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>MRAID Test Page</title>
+    <title>TO BE INSERTED INTO PREIVEW MM PREVIEW SERVICE</title>
 <!--
 /*
  *  Copyright (c) 2012 The mraid-web-tester project authors. All Rights Reserved.
@@ -60,9 +60,7 @@
 </head>
 
 <body>
-    <header>
-        <div id="webtester-logo"></div>
-    </header>
+    <header></header>
 
     <nav>
         <ul id='tabs'>
@@ -148,16 +146,6 @@
             </div>
             <div></div>
             <div id="devicePreviewDiv">
-                <!-- div id="resizable-screensize" class="ui-widget-content ui-resizable" style="float:left">
-                    <p class="ui-widget-header">screen size</p>
-                    <div id="resizable-maxAdSize" class="ui-widget-content">
-                        <p class="ui-widget-header">max ad area &amp; placement</p>
-                        <div id="resizable-initialAdSize" class="ui-widget-content">
-                            <p class="ui-widget-header">initial ad area &amp; placement</p>
-                        </div>
-                    </div>
-                </div -->
-
                 <div class="drag" id="resizable-screensize" style="top:100px;left:500px"><p>screen size</p>
                    <div class="handle SE"></div>
                 </div>
@@ -174,7 +162,6 @@
             <div>
                 <h2 class="no-margin">tag source</h2>
                 <div>
-                    <!--textarea name="adFragment" id="adFragment" rows="10" ><script src='http://rtr.innovid.com/r1.5637e6df321548.45146407;cb=[timestamp]'></script></textarea><br/-->
                     <textarea name="adFragment" id="adFragment" rows="10" placeHolder="Your HTML fragment here" ></textarea><br/>
                     <input type="button" value="Render" onclick="renderHtmlAd()" />
                 </div>
@@ -190,37 +177,12 @@
                     <input type="button" value="Clear" onclick="document.getElementById('console').innerHTML = ''">
                 </em>
             </div>
-            <div id="controlsDiv">
-                <h2 class="no-margin">controls</h2>
-                <div id="orientationDiv" class="mraid-widget">
-                    <div id="orientationToggle" class="portrait"></div>
-                    <div id="orientationTiming" type="button" onclick="orientationWidget.toggleOrientationTiming()" class="t-off"></div>
-                    <p class="formValues"><span class="value">
-                    <select name="orientationState" id="orientationState">
-                      <option value="portrait">portrait</option>
-                      <option value="landscape">landscape</option>
-                    </select>
-                    </span>
-                    </p>
-                </div>
-
-            </div>
         </section>
     
     </div>
 </form>
 
-    <footer>
-        <table id="footerTable">
-            <tbody>
-                <tr>
-                    <td>This project is Open Source:<br/><div id="groups-logo" onclick="window.open('https://github.com/mraid/webtester')"></div></td>
-                    <td>MRAID specification defined by:<br/><div id="iab-logo" onclick="window.open('http://www.iab.net/mraid/')"></div></td>
-                    <td>Site powered by:<br/><div id="crisp-logo" onclick="window.open('http://crispmedia.com/')"></div></td>
-                </tr>
-            </tbody>
-        </table>
-    </footer>
+    <footer></footer>
 
 </body>
 </html>
