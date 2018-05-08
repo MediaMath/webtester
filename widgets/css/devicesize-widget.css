@@ -8,13 +8,13 @@
  */
 
 /* DEVICE SIZE */
-	#resizable-screensize { top: 100px; left:420px; width: 320px; height: 480px; background-color:#FFFFFF; position: absolute; top:0px; left:0px}
+	#resizable-screensize { top: 100px; left:420px; width: 320px; height: 480px; background-color:#FFFFFF; position: absolute; top:0; left:0}
 	#resizable-screensize>p { width: 320px; text-align: center; margin: 0; background-color:transparent; color:#aaa;  position: absolute; bottom: 0px}
 
-	#resizable-maxAdSize { top: 100px; left:420px; width: 318px; height: 318px; background-color:#aaa; position:absolute; top:0px; left:0px}
-	#resizable-maxAdSize>p { width: 318px; text-align: center; margin: 0; background-color:transparent; position: absolute; bottom: 0px; color: #fff;}
+	#resizable-maxAdSize { top: 100px; left:420px; width: 318px; height: 318px; background-color:#aaa; position:absolute; top:0; left:0}
+	#resizable-maxAdSize>p { width: 318px; text-align: center; margin: 0; background-color:transparent; position: absolute; top: 0; color: #fff;}
 	
-	#resizable-initialAdSize { top: 100px; left:420px; width: 316px; height: 46px; background-color:#e93217; position:absolute; top:0px; left:0px }
+	#resizable-initialAdSize { top: 100px; left:420px; width: 316px; height: 46px; background-color:#e93217; position:absolute; top:0; left:0 }
 	#resizable-initialAdSize>p { width: 316px; text-align: center; margin: 0; background-color:transparent;  position: absolute; bottom: 0px; color: #fff}
 
 .drag {
